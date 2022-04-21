@@ -1,0 +1,101 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+button
+{
+    position: absolute;
+    padding: 15px;
+    border-end-end-radius: 5px;
+    border-start-end-radius: 5px;
+    width:6%;
+}
+#mainsec1
+{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   background-color: rgb(115, 111, 111);
+}
+#mainsec1 article
+{
+    width: 80%;
+    height: 20vh;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     background-color: rgb(163, 20, 220);
+     border-radius: 25px;
+     box-shadow: 0px 2px 0px rgb(201, 137, 137),5px 5px 0px rgb(207, 207, 159),5px 0px 20px green;
+}
+h1
+{
+    font-size: 25px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 2px 20px black;
+    text-transform: uppercase;
+    animation-name: colum,column;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+
+}
+@keyframes colum {
+    from{transform: scale(0.5)}
+    to{transform: scale(1.1);}
+}
+@keyframes column {
+    from{color: black;}
+    to{color: white;}
+}
+input
+{
+    padding: 15px;
+    padding-left: 50px;
+    
+}
+input:focus{
+    background-color: gray;
+    color: white;
+}
+.main-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+    margin:auto;
+    padding: 20px;
+    background-color: gray;
+
+}
+.fa-times{
+   
+    padding: 10px;
+    transition: all 1s;
+}
+.fa-check{
+
+    padding: 10px;
+     transition: all 1s;
+}
+.fa-times:hover{
+    background-color: red;
+}
+.fa-check:hover{
+    background-color: green;
+}
+p{
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+   
+}
